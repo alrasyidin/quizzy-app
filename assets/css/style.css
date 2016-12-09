@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #3498db;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #12344a;
+}
+
+.container {
+  box-sizing: border-box;
+  box-shadow: 0px 3px 15px #12344a;
+  padding: 20px;
+  width: 75%;
+  margin: 20px auto;
+  background-color: #fbfbfb;
+}
+
+.header-banner {
+  text-align: center;
+  color: #12344a;
+}
+
+.header-nav {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.header-nav ul{
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.header-nav li{
+  list-style: none;
+  float: left;
+  margin: 0px 5px;
+}
+
+.header-nav li a {
+  border: dashed thin #3498db;
+  padding: 5px;
+}
+
+.header-banner h1{
+  padding: 0px;
+  margin: 0px;
+}
+
+.shaded-box {
+  padding: 10px;
+  border: solid thin #f3f3f3;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px #e0e0e0;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.push-down {
+  margin-bottom: 25px;
+}
+
+.question-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.label-link {
+  padding: 15px;
+  background-color: #3498db;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  color: #fff;
+}
+
+.copyrights{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.active-btn {
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px #a7a7a7;
+  background: -webkit-linear-gradient(#3498db, #2b72a2);
+  background: -o-linear-gradient(#3498db, #2b72a2);
+  background: -moz-linear-gradient(#3498db, #2b72a2);
+  background: linear-gradient(#3498db, #2b72a2);
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.active-btn:hover {
+  background: -webkit-linear-gradient(#2b72a2, #3498db);
+  background: -o-linear-gradient(#2b72a2, #3498db);
+  background: -moz-linear-gradient(#2b72a2, #3498db);
+  background: linear-gradient(#2b72a2, #3498db);
+}
+
+.active-message {
+    padding: 5px;
+    background-color: #3498db;
+    margin: 10px 0px;
+    color: #fff;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.form label{
+	display: block;
+	margin-bottom: 10px;
+	color: #12344a;
+}
+
+.form input[type="text"], .form select {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: solid thin #e0e0e0;
+}
+
+.content-group {
+	display: block;
+	margin-bottom: 10px;
+}
